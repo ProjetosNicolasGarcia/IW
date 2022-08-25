@@ -4,7 +4,7 @@ html{
 
 .menu{
     background-color: black;
-    padding: 2%;
+    padding: 2%
 }
 
 
@@ -71,7 +71,7 @@ h1{
     padding-top: 1em;
     padding-bottom: 1em;
     font-size: 3em;
-    font-family: fantasy;
+    font-family: monospace;
     
 }
 
@@ -234,7 +234,7 @@ h2{
     padding-top: 1em;
     padding-bottom: 1em;
     font-size: 2em;
-    font-family: fantasy;
+    font-family: monospace;
     
 }
 
@@ -278,9 +278,12 @@ audio::-webkit-media-controls-panel {
 }
 
 .form{
-    background-color: violet;
-    border-radius: 5px;
-    padding: 15px;
+    background-color: violet ;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 1%;
+    box-sizing: border-box;
+    font-family: monospace
 }
 
 .row:after {
@@ -289,21 +292,22 @@ audio::-webkit-media-controls-panel {
     clear: both;
   }
 
-label{
-    font-size: 150%;
-    font-family: monospace
-}
-input[type=text],[type=tel],[type=email], select{
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-family: monospace
+  label{
+width: 50%;
+display: inline-block;
+font-family: monospace
+    
 }
 
+input[type=text], select, input[type=tel], input[type=email], input[type=date], textarea{
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    width: 90%;
+    font-family: monospace;
+    
+  }
 
 
 .col-25{
@@ -329,6 +333,17 @@ input[type=submit] {
     font-family: monospace
   }
 
+@media  screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .form{
+        background-color: #9400D3;
+    }
+    
+}
 
 
 
