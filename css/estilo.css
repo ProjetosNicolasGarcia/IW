@@ -34,9 +34,6 @@ html{
     color: white;
   }
 
-.logo{
-    font-family: fantasy;
-}
 
 body{
     background-color:#1c1c1c ;
@@ -129,9 +126,9 @@ footer{
 
 footer p{
     font-size: 1em;
-    text-indent: 35px;
+    text-indent: 5em;
     text-align: center;
-    line-height: 5px;
+    line-height: 6em;
 
 }
 
@@ -148,8 +145,6 @@ footer p{
 
 .eumesmo{
   width: 300px;
-  float: right;
-  margin-left: 20px;
 }
 
 .texto_sobre{
@@ -158,6 +153,8 @@ footer p{
     padding-left: 20%;
     text-align: justify;
 }
+
+
 
 a:link {
     text-decoration: none;
@@ -176,57 +173,6 @@ a:link {
     text-decoration: none
     color white }
 
-  .texto_top{
-    
-    padding-right: 20%;
-    padding-left: 20%;
-    text-align: justify;
-}
-
-.texto_id{
-    
-    padding-right: 20%;
-    padding-left: 20%;
-    text-align: justify;
-}
-
-.texto_ts{
-    
-    padding-right: 20%;
-    padding-left: 20%;
-    text-align: justify;
-}
-
-.texto_lp{
-    
-    padding-right: 20%;
-    padding-left: 20%;
-    text-align: justify;
-}
-
-.banda_oficial{
-    color: whitesmoke;
-    font-style: italic;
-    font-size: 1.5em;
-    padding-top: 2%;
-    padding-bottom: 5%;
-}
-
-.top{
-    width: 100%;
-}
-
-.id{
-    width: 100%;
-}
-
-.ts{
-    width: 100%;
-}
-
-.lp{
-    width: 100%;
-}
 
 h2{
     text-align: center;
@@ -269,6 +215,10 @@ td:first-child {
 
 td:first-child +td{
     width: 50%;
+}
+
+audio{
+    width: 60%;
 }
 
 audio::-webkit-media-controls-play-button,
